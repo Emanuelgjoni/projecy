@@ -1,0 +1,127 @@
+body {
+  margin: 0 0 0 0;
+  background-color: #f0f0f0;
+}
+.header {
+  background-color: #696969;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#logo {
+  padding: 5px 2px;
+}
+#logo :hover {
+  border-width: 4px;
+  border-radius: 70% 70%;
+  border-style: solid;
+  border-color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.menu a {
+  padding: 13px;
+  transition: 3s;
+  border-bottom: 1px solid transparent;
+}
+.menu a:hover {
+  text-decoration: underline 3px;
+}
+.un {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 0.5s;
+}
+.un:hover {
+  text-decoration-color: red;
+
+  /*add those for opera and mozilla support*/
+  -webkit-text-decoration-color: red;
+  -moz-text-decoration-color: red;
+  cursor: pointer;
+}
+.banner {
+  margin-top: 20px;
+}
+
+.col1 {
+  width: 33.333%;
+  height: 600px;
+  float: left;
+}
+.col2 {
+  background-color: rgb(41, 124, 124);
+  width: 33.333%;
+  height: 600px;
+  float: left;
+}
+.col3 {
+  background-color: mediumblue;
+  width: 33.3333%;
+  height: 600px;
+  float: left;
+}
+.row1 {
+  width: 100%;
+  height: 38%;
+  background-color: green;
+}
+.row2 {
+  width: 100%;
+  height: 38%;
+}
+.col1r2 {
+  width: 50%;
+  float: left;
+  height: 100%;
+  background-color: olive;
+}
+.col2r2 {
+  width: 50%;
+  height: 100%;
+  background-color: orange;
+  float: left;
+}
+.row1col2r2 {
+  width: 100%;
+  height: 15%;
+
+  background-color: orchid;
+}
+.row3col1 {
+  background-color: tomato;
+  width: 100%;
+  height: 24%;
+}
+.row1col2 {
+  height: 70%;
+  width: 100%;
+
+  float: left;
+}
+.col1row1c2 {
+  height: 100%;
+  width: 50%;
+  background-color: tomato;
+  float: left;
+}
+.fin {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  float: left;
+}
